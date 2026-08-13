@@ -4,6 +4,7 @@ import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Zombie_Game/',
   plugins: [react(), tailwindcss()],
   resolve: {
     tsconfigPaths: true,
@@ -12,3 +13,4 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
 });
+
